@@ -18,13 +18,16 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+              },
+              fontFamily : {
+                'manrope' : ["Manrope", 'sans-serif'] ,
               }
             }
           }
         }
       </script>
 </head>
-<body>
+<body class="font-manrope">
   <!-- banner section start -->
   <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
    <header class="lg:flex pt-10 mb-20">
@@ -178,17 +181,125 @@
            </div>
           
         </div>
-
         </div>
-        
-        
       </section>
 
+      <!-- News and event Section -->
+       <section class="py-8 lg:py-24">
+        <!-- news text content -->
+        <div class="text-center">
+          <h1 class="text-3xl md:4xl font-bold mb-4">News & Events</h1>
+          <p class="text-gray-600 mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+         </div>
 
+         <!-- news card section -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- first card -->
+             <div class="bg-white shadow-xl rounded-xl border border-gray-400">
+              <img class="mx-auto py-3 px-4" src="./images/news-1.png" alt="">
+              
+                <div class="mx-4 py-5">
+                  <p class="text-gray-600 mb-3">Feb 05, 2027</p>
+              <h3 class="font-extrabold mb-4">Collecting 8 points for discount</h3>
+              <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+              <a href="" class="font-semibold mb-5">Learn More</a>
+                </div>
+              
+
+             </div>
+              <!-- Second card -->
+              <div class="bg-white shadow-xl rounded-xl border border-gray-400">
+                <img class="mx-auto py-3 px-4" src="./images/news-2.png" alt="">
+                
+                  <div class="mx-4 py-5">
+                    <p class="text-gray-600 mb-3">Feb 05, 2027</p>
+                <h3 class="font-extrabold mb-4">Collecting 8 points for discount</h3>
+                <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+                <a href="" class="font-semibold mb-5">Learn More</a>
+                  </div>
+                </div>
+                 <!-- third card -->
+             <div class="bg-white shadow-xl rounded-xl border border-gray-400">
+              <img class="mx-auto py-3 px-4" src="./images/news-3.png" alt="">
+              
+                <div class="mx-4 py-5">
+                  <p class="text-gray-600 mb-3">Feb 05, 2027</p>
+              <h3 class="font-extrabold mb-4">Collecting 8 points for discount</h3>
+              <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+              <a href="" class="font-semibold mb-5">Learn More</a>
+                </div>
+              
+
+             </div>
+
+          </div>
+
+          
+       </section>
   </main>
     
-    <footer>
+    <footer class="bg-orange-100 px-4 py-10 text-gray-700 md:px-16">
+      <div class="w-9/12 mx-auto">
+        <div class="mb-8 flex justify-between">
+          <img class="mb-8" src="./images/cup.png" alt="">
+        <div class="flex items-center gap-2">
+          <h2>Ready to get started?</h2>
+          <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 mt-12 rounded-lg font-bold text-white mb-9">Get Started</button>
+        </div>
+      </div>
+      </div>
 
+      <!-- links -->
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!--  first coloumn  -->
+         <div>
+          <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Insurance</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+         </div>
+         <!-- second coloumn -->
+         <div>
+          <h3 class="font-semibold text-lg mb-3">Our Service</h3>
+          <ul class="space-y-2">
+            <li><a href="">Life Insurance</a></li>
+            <li><a href="">Car Insurance</a></li>
+            <li><a href="">Health Insurance</a></li>
+            <li><a href="">House Insurance</a></li>
+          </ul>
+         </div>
+         <!-- third column -->
+         <div>
+          <h3 class="font-semibold text-lg mb-3">Help</h3>
+          <ul class="space-y-2">
+            <li><a href="">FAQS</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+         </div>
+         <!-- fourth coloumn -->
+          <div class="">
+            <h3 class="font-semibold text-lg mb-3">Subscribe to our <br> newsletter</h3>
+            <div class="flex flex-col space-y-2">
+              <input placeholder="Email Address" type="text" class="bg-transparent border-b-2 border-black w-4/6">
+              <i class="fa-solid fa-chevron-right w-7 h-7 bg-gradient-to-r bg-orange-500 to-red-500 text-white rounded-full justify-center  items-center inline-flex"></i>
+              <div class="flex justify-between w-2/5 mb-2 mt-8 ">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+
+              </div>
+
+            </div>
+
+          </div>
+       </div>
+       <div class="text-center pt-4 mt-4">
+        <p class="text-sm text-gray-600">© 2027 UIDesign.to - All rights reserved.</p>
+      </div>
     </footer>
 </body>
 </html>
